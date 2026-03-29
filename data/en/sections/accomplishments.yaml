@@ -1,46 +1,95 @@
-# section information
 section:
   name: Accomplishments
   id: accomplishments
   enable: true
   weight: 9
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-
-# Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Introduction to Data Analytics
+  timeline: "Dec 2023"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
-
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
-  organization:
-    name: Coursera
+    name: IBM - Coursera
     url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+  courseOverview: Introduction to the world of data analytics, covering the data ecosystem, data analysis process, and tools used by data analysts.
+  certificateURL: "https://coursera.org/verify/Q8H3PPSJBHGD"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Excel Basics for Data Analysis
+  timeline: "Dec 2023"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: IBM - Coursera
+    url: https://www.coursera.org
+  courseOverview: Fundamentals of Excel for data analysis including data wrangling, cleaning, and visualization techniques.
+  certificateURL: "https://coursera.org/verify/VAWC5UKJB77N"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Business Analytics with Excel - Elementary to Advanced
+  timeline: "Dec 2023"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-  certificateURL: "https://example.com"
- 
+    name: Johns Hopkins University - Coursera
+    url: https://www.coursera.org
+  courseOverview: Comprehensive Excel skills for business analytics, from basic functions to advanced data modeling and visualization.
+  certificateURL: "https://coursera.org/verify/TRNFHRSA6P7P"
 
+- name: Data Visualization and Dashboards with Excel and Cognos
+  timeline: "Jan 2024"
+  organization:
+    name: IBM - Coursera
+    url: https://www.coursera.org
+  courseOverview: Building interactive dashboards and visualizations using Excel and IBM Cognos Analytics.
+  certificateURL: "https://coursera.org/verify/HTEK6NWMSXBU"
+
+- name: Assessment for Data Analysis and Visualization Foundations
+  timeline: "Feb 2024"
+  organization:
+    name: IBM - Coursera
+    url: https://www.coursera.org
+  courseOverview: Comprehensive assessment covering data analysis and visualization foundations using Excel and Cognos.
+  certificateURL: "https://coursera.org/verify/GUPFXSSLR2Z9"
+
+- name: The Structured Query Language (SQL)
+  timeline: "Feb 2024"
+  organization:
+    name: University of Colorado Boulder - Coursera
+    url: https://www.coursera.org
+  courseOverview: Core SQL concepts including querying, filtering, joins, and aggregation for relational database management.
+  certificateURL: "https://coursera.org/verify/W37QCDBPLVYF"
+
+- name: Relational Database Design
+  timeline: "Apr 2024"
+  organization:
+    name: University of Colorado Boulder - Coursera
+    url: https://www.coursera.org
+  courseOverview: Principles of relational database design including ER modeling, normalization, and schema design.
+  certificateURL: "https://coursera.org/verify/4XYNUUNHV8SE"
+
+- name: Introduction to R Programming for Data Science
+  timeline: "Apr 2024"
+  organization:
+    name: IBM - Coursera
+    url: https://www.coursera.org
+  courseOverview: Fundamentals of R programming for data science including data manipulation, visualization, and statistical analysis.
+  certificateURL: "https://coursera.org/verify/Z4LURK99DVVL"
+
+- name: Introduction to Python
+  timeline: "2026"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: Fundamentals of Python programming including data types, control flow, functions, and basic data manipulation.
+  certificateURL: "https://www.datacamp.com/completed/statement-of-accomplishment/course/ca7648d442b368587e42841d5f0d36bdff45f2e1?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa"
+
+- name: Introduction to Bash Scripting
+  timeline: "2026"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: Fundamentals of Bash scripting for automation and system administration tasks.
+  certificateURL: "https://www.datacamp.com/completed/statement-of-accomplishment/course/35efd355ec9500ef774c759f08d4382668945a80?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa"
+
+- name: Présentation de Docker
+  timeline: "2026"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: Introduction to Docker containers, images, and containerization concepts for modern application deployment.
+  certificateURL: "https://www.datacamp.com/completed/statement-of-accomplishment/course/4c5f98acf16fee963037c4c940c4d355a8ebd1d0?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa"

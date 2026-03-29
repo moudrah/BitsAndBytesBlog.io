@@ -1,4 +1,3 @@
-# section information
 section:
   name: Skills
   id: skills
@@ -6,66 +5,93 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
+- name: Languages
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Frameworks
+  filter: "framework"
+- name: Databases
+  filter: "database"
+- name: Tools
+  filter: "tools"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Object-oriented programming with Java. Used for backend development with Spring Boot."
+  categories: ["language"]
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Used for data analysis, machine learning, and scripting."
+  categories: ["language"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: JavaScript
+  logo: /images/sections/skills/js.png
+  summary: "Frontend and backend development with JavaScript."
+  categories: ["language"]
+
+- name: PHP Laravel
+  logo: /images/sections/skills/laravel.png
+  summary: "Building web applications using the Laravel framework."
+  categories: ["language", "framework"]
+
+- name: C
+  logo: /images/sections/skills/c.png
+  summary: "Systems programming and low-level development using C."
+  categories: ["language"]
+
+- name: VBA
+  logo: /images/sections/skills/vb.png
+  summary: "Automating tasks and building macros in Excel using VBA."
+  categories: ["language", "tools"]
+
+- name: Angular
+  logo: /images/sections/skills/angular.png
+  summary: "Building modern single-page applications with Angular and TypeScript."
+  categories: ["framework"]
+
+- name: R
+  logo: /images/sections/skills/R.jpg
+  summary: "Data analysis, statistical computing, and visualization using R."
+  categories: ["language"]
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.png
+  summary: "Designing and querying relational databases with MySQL."
+  categories: ["database"]
+
+- name: PostgreSQL
+  logo: /images/sections/skills/postgresql.png
+  summary: "Advanced relational database management with PostgreSQL."
+  categories: ["database"]
+
+- name: SQL Server
+  logo: /images/sections/skills/sqlserver.png
+  summary: "Database design and management with Microsoft SQL Server."
+  categories: ["database"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  summary: "Containerizing applications using Docker and Docker Compose."
+  categories: ["tools"]
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  summary: "Version control with Git. Experienced with GitHub for collaborative development."
+  categories: ["tools"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Bash Scripting
+  logo: /images/sections/skills/linux.png
+  summary: "Writing shell scripts for automation and system administration."
+  categories: ["tools"]
+
+- name: Excel
+  logo: /images/sections/skills/excel.jpg
+  summary: "Advanced Excel skills for data analysis, dashboards, and business analytics."
+  categories: ["tools"]
