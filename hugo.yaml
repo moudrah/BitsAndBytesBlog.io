@@ -49,12 +49,12 @@ outputs:
 enableEmoji: true
 
 params:
-  background: /images/site/background.jpg
+  background: /images/site/background1.jpg
 
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/owl.png
+    inverted: /images/site/owl.png
+    favicon: /images/site/owl.png
 
   gitRepo: https://github.com/mouadrah/BitsAndBytesBlog
   gitBranch: main
